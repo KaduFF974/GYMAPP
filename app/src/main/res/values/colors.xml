@@ -12,4 +12,10 @@
     <color name="text_secondary">#636E72</color>
     <color name="card_bg">#FFFFFF</color>
     <color name="success_green">#2ECC71</color>
+    <!-- Estilo Visual Treino -->
+    <color name="workout_bg">#F8F9FA</color>
+    <color name="workout_card_dark">#1E1E2A</color>
+    <color name="workout_cyan">#00D2FE</color>
+    <color name="workout_green">#2ECC71</color>
+    <color name="workout_gray_light">#E9ECEF</color>
 </resources>

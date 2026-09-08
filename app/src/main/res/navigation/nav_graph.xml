@@ -14,7 +14,17 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_WorkoutExecutionFragment"
+            app:destination="@id/WorkoutExecutionFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/WorkoutExecutionFragment"
+        android:name="com.example.gymapp.WorkoutExecutionFragment"
+        android:label="@string/workout_execution_label"
+        tools:layout="@layout/fragment_workout_execution" />
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.gymapp.SecondFragment"

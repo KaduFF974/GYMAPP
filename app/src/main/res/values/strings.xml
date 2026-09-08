@@ -7,6 +7,15 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <!-- Workout Execution -->
+    <string name="workout_execution_label">Treino em Execução</string>
+    <string name="complete_set">Concluir Série</string>
+    <string name="upcoming_exercises">Próximos Exercícios</string>
+    <string name="workout_queue">Fila de Exercícios</string>
+    <string name="rest">Descanso</string>
+    <string name="weight_kg">Carga (kg)</string>
+    <string name="reps">Reps</string>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus

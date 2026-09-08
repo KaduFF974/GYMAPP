@@ -16,6 +16,29 @@
     <string name="weight_kg">Carga (kg)</string>
     <string name="reps">Reps</string>
 
+    <!-- Create Workout -->
+    <string name="create_workout_label">Criar Novo Treino</string>
+    <string name="workout_name_hint">Nome do Treino (ex: Treino C - Pernas)</string>
+    <string name="select_category">Selecionar Categoria</string>
+    <string name="category_hypertrophy">Hipertrofia</string>
+    <string name="category_strength">Força</string>
+    <string name="category_endurance">Resistência</string>
+    <string name="add_exercise">Adicionar Exercício</string>
+    <string name="save_workout_local">Salvar Treino Localmente</string>
+    <string name="added_exercises">Exercícios Adicionados</string>
+
+    <!-- Profile/Settings -->
+    <string name="profile_label">Perfil e Ajustes</string>
+    <string name="local_storage_status">Armazenamento Local: 100% Funcional</string>
+    <string name="sync_cloud_wifi">Sincronizar com a Nuvem quando houver Wi-Fi</string>
+    <string name="backup_now">Fazer Backup Agora</string>
+    <string name="last_backup_prefix">Último backup: </string>
+    <string name="last_backup_date">Hoje, às 12:45</string>
+    <string name="stats_workouts_done">Treinos Concluídos</string>
+    <string name="stats_total_volume">Volume Total Levantado</string>
+    <string name="stats_workouts_value">48</string>
+    <string name="stats_volume_value">12.450 kg</string>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus

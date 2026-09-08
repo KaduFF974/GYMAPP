@@ -35,6 +35,14 @@ class FirstFragment : Fragment() {
         binding.btnStartWorkout.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_WorkoutExecutionFragment)
         }
+
+        binding.fabAddWorkout.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_CreateWorkoutFragment)
+        }
+
+        binding.ivProfile.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_ProfileFragment)
+        }
     }
 
     override fun onDestroyView() {

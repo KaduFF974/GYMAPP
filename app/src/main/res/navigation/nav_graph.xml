@@ -18,6 +18,14 @@
         <action
             android:id="@+id/action_FirstFragment_to_WorkoutExecutionFragment"
             app:destination="@id/WorkoutExecutionFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_CreateWorkoutFragment"
+            app:destination="@id/CreateWorkoutFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
     </fragment>
 
     <fragment
@@ -25,6 +33,18 @@
         android:name="com.example.gymapp.WorkoutExecutionFragment"
         android:label="@string/workout_execution_label"
         tools:layout="@layout/fragment_workout_execution" />
+
+    <fragment
+        android:id="@+id/CreateWorkoutFragment"
+        android:name="com.example.gymapp.CreateWorkoutFragment"
+        android:label="@string/create_workout_label"
+        tools:layout="@layout/fragment_create_workout" />
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.gymapp.ProfileFragment"
+        android:label="@string/profile_label"
+        tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.gymapp.SecondFragment"
